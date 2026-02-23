@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+div {
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    border: 2px black solid;
+}
+
+p {
+    margin: 0;
+    font-size: 48px;
+}
+
+
+
+#malgeun-godig {
+    font-family: "맑은 고딕";
+}
+
+#dod-um {
+    font-family: 돋움;
+}
+
+#gullim {
+    font-family: 굴림;
+}
+
+
+
+#font-size-16px {
+    font-size: 16px;
+}
+
+#font-size-32px {
+    font-size: 32px;
+}
+
+#font-size-2rem {
+    font-size: 2rem;
+}
+
+
+
+#font-style-normal {
+    font-style: normal;
+}
+
+#font-style-italic {
+    font-style: italic;
+}
+
+#font-style-oblique {
+    font-style: oblique;
+}
+
+
+
+#font-weight-100 {
+    font-weight: 100;
+}
+
+#font-weight-400 {
+    font-weight: 400;
+    /* font-weight: normal; */
+}
+
+#font-weight-700 {
+    font-weight: 700;
+    /* font-weight: bold; */
+}
+
+#font-weight-900 {
+    font-weight: 900;
+}
+
+
+#bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+#text-align-start {
+    text-align: start;
+}
+
+#text-align-end {
+    text-align: end;
+}
+
+#text-align-left {
+    text-align: left;
+}
+
+#text-align-right {
+    text-align: right;
+}
+
+#text-align-center {
+    text-align: center;
+}
+
+#text-align-justify {
+    text-align: justify;
+}
+
+#text-align-match-parent {
+    text-align: match-parent;
+}
+
+
+
+#line-height-07 {
+    line-height: 0.7;
+}
+
+#line-height-200-percent {
+    line-height: 200%;
+}
+
+#line-height-24px {
+    line-height: 24px;
+}
+
+
+
+#text-decoration-none {
+    text-decoration: none;
+}
+
+#text-decoration-overline {
+    text-decoration: overline;
+}
+
+#text-decoration-underline {
+    text-decoration: underline;
+}
+
+#text-decoration-line-through {
+    text-decoration: line-through;
+}
+
+
+
+#text-shadow-1 {
+    /* none | 가로, 세로, 흐림, 색상 */
+    /* 가로 양수는 오른쪽으로, 음수는 왼쪽으로 */
+    /* 세로 양수는 아래쪽으로, 음수는 위쪽으로 (옛날 그 스크래치 좌표배경 y만 반대로 꽂아버린 느낌) */
+    text-shadow: 2px 2px 2px red;
+}
+
+#text-shadow-2 {
+    text-shadow: 4px 4px blue;
+}
+
+#text-shadow-3 {
+    text-shadow: 6px -6px 6px green;
+}
