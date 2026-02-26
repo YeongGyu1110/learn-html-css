@@ -166,3 +166,49 @@ p {
 #text-shadow-3 {
     text-shadow: 6px -6px 6px green;
 }
+
+
+
+#text-transform-uppercase {
+    text-transform: uppercase;
+}
+
+#text-transform-lowercase {
+    text-transform: lowercase;
+}
+
+#text-transform-capitalize {
+    text-transform: capitalize;
+}
+
+#text-transform-full-width {
+    text-transform: full-width;
+}
+
+
+
+#letter-spacing-0 {
+    letter-spacing: 0;
+}
+
+#letter-spacing-10px {
+    letter-spacing: 10px;
+}
+
+#letter-spacing-02em {
+    letter-spacing: 0.2em;
+}
+
+
+
+#word-spacing-0 {
+    word-spacing: 0;
+}
+
+#word-spacing-40px {
+    word-spacing: 40px;
+}
+
+#word-spacing-2em {
+    word-spacing: 2em;
+}
