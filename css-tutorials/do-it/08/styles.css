@@ -5,6 +5,9 @@ body {
 div {
     /* 마진 테두리 패딩 값 죄다 합쳐서 크기 계산하기 */
     box-sizing: border-box;
+
+    /* 좀 간격 띄워서 쉽게 구분할 수 있도록 하기 */
+    margin-top: 20px;
 }
 
 .level {
@@ -49,8 +52,7 @@ div {
 }
 
 
-.border {
-    margin-top: 20px;
+.border-style {
     border: 10px;
 }
 
@@ -84,4 +86,80 @@ div {
 
 .ridge {
     border-style: ridge;
+}
+
+
+.border-width {
+    border-color: olive;
+    border-style: solid;
+}
+
+.width1 {
+    /*
+    전체가 20px
+    */
+    border-width: 20px;
+}
+
+.width2 {
+    /* 
+    top, bottom이 20px,
+    left, right가 80px
+    */
+    border-width: 20px 80px;
+}
+
+.width3 {
+    /* 
+    top이 20px,
+    left, right가 10px,
+    bottom이 40px.
+    */
+    border-width: 20px 10px 40px;
+}
+
+.width4 {
+    /* 
+    top 20px,
+    right 10px
+    bottom 40px
+    left 100px
+    */
+    border-width: 20px 10px 40px 100px;
+}
+
+
+.border-color {
+    border: 10px solid;
+}
+
+.color1 {
+    /* 전체 색상이 레드 */
+    border-color: red;
+}
+
+.color2 {
+    /* 왼쪽 테두리 색상이 빩강 */
+    /* 오른쪽 테두리 색상이 파랑 */
+    border-left-color: red;
+    border-right-color: blue;
+}
+
+
+.border-radius {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+.round1 {
+    border-radius: 50px;
+
+    /* 왠지 모르겟지만 동그라미 만드는 최대 퍼센트가 100%가 아니고 50%임 */
+    /* border-radius: 25%; */
+}
+
+.round2 {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 25%;
 }
