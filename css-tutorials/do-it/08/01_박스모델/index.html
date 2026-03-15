@@ -1,0 +1,35 @@
+<!-- css 박스 모델 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- p는 블록레벨요소임 -->
+    <p class="level">지 혼자 한 줄 다 차지하는 <b>블록 레벨 요소</b></p>
+    <!-- span은 인라인 요소임. -->
+    <span class="level">자기 몸뚱아리 크기만큼만 영역을 차지하는 <b>인라인 레벨 요소</b></span>
+
+    <!-- box model 녀석 어디까지 큰건지 보여주기 위한 테두리 요소 -->
+    <div style="margin-top: 20px; height: 202px; width: 202px; border: 2px solid black; align-items: center;">
+        <!-- 요놈이 핵심 -->
+        <div class="box-model">
+            <!-- 백그라운드 색상을 지정하자니 padding도 색상 적용이 되어서 따로 컨텐트 영역을 보여주기 위한 div 박스. -->
+            <div style="height: 80px; width: 80px; background-color: darkslategray; color: white; margin: 0;">
+                이거 컨텐츠 영역임
+            </div>
+        </div>
+    </div>
+
+    <div class="shadow" style="margin-top: 20px;">
+        나 그림자 있어!
+    </div>
+
+</body>
+
+</html>
